@@ -1,0 +1,140 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+   font-family: Bree serif, 'Courier New', Courier, monospace;
+}
+#navbar {
+    background-color: transparent;
+}
+#brand {
+    margin-right: 8em;
+}
+.banner {
+    margin-top: -5em;  
+    height: 750px;  
+    position: absolute;
+    z-index: -1;
+}
+#btn-main {
+    margin-left: 41em;
+}
+.nav-item {
+    font-size: 1.1em;
+    padding: 0em 1em ;
+}
+.home h1 {
+    font-size: 4em;
+    padding-top: 3em;
+}
+.home h1, h6 {
+    color: #f4fff8;
+    text-align: center;
+    
+}
+/* ---------------------------------------------------------------------------------- */
+main {
+    display: flex;
+}
+#content {
+    margin-top: 23em;
+    margin-left: 17em;
+    margin-right: 1em;
+}
+.card-title {
+    color: #0d1b1e;
+}
+aside {
+    margin-top: 3em;
+    margin-bottom: 5em;
+    background-color: #0d1b1e;
+    color: #f4fff8;
+    width: 250px;
+    height: 400px;
+    margin-right: 2em;
+    position: fixed;
+    z-index: 3;
+}
+aside h3 {
+    text-align: center;
+    padding-top: 30px;
+    color: #ea3546;;
+}
+aside ul {
+    line-height: 2em;
+    cursor: pointer;
+}
+aside ul li:hover {
+   text-decoration: underline;
+}
+#pagina {
+    margin-top: 2em;
+}
+/* --------------------------------------------------------------- */
+#comments {
+    margin-top: 3em;
+}
+#comments hr {
+    margin-left: 8em;
+}
+#comments h3 {
+    margin-left: 5em;
+}
+.person {
+    display: flex;
+    margin-left: 6.4em;
+}
+.person h5 {
+    margin-top: .5em;
+    margin-left: .5em;
+}
+.forms {
+    display: flex;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+#texts {
+    margin-left: 8.5em;
+    margin-right: 2em;
+    border: 1px solid rgb(161, 161, 161);
+    box-shadow: 2px 2px 4px rgb(70, 70, 70);
+}
+/* ------------------------------------------------------------------------- */
+footer {
+    background-color: #0d1b1e;
+    color: #f4fff8;
+    display: flex;
+    height: 250px;
+    padding-top: 2em;
+}
+footer h5 {
+    margin-top: 3em;
+    margin-right: 3em;
+    margin-left: 1em;
+}
+.link {
+    display: flex;
+}
+.link ul, a {
+    text-decoration: none;
+    list-style: none;
+    color: #f4fff8;
+}
+.link ul {
+    line-height: 2em;
+    margin-top: 2em;
+}
+.links2 {
+    margin-right: 33em;
+    margin-left: 2em;
+}
+.link a:hover {
+    text-decoration: underline;
+    color: #f4fff8;
+}
+
+.notfication {
+    margin-top: 2em;
+}
