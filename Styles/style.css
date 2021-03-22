@@ -138,3 +138,71 @@ footer h5 {
 .notfication {
     margin-top: 2em;
 }
+
+/* ------------------------------------- */
+#news-top {
+    margin-top: 25em;
+    margin-left: 2em;
+    display: block;
+    flex-direction: column;
+}
+.martop {
+    margin-top: 5em;
+
+}
+.space {
+    margin-left: 2em;
+}
+.spaces {
+    margin-left: 1.3em;
+}
+/* ---------------------------------------------------- */
+#quizs {
+    margin: 5em 5em 5em 16em;
+}
+.memoria {
+    max-width: 100%;
+    margin-left: 11em;
+}
+.cartao {
+    box-shadow: 2px 4px 1px #333333fa;
+    cursor: pointer;
+    height: auto;
+    width: 15%;
+    margin: .8%;
+    transition: all 700ms ease;
+    margin-right: 4em;
+
+}
+.cartao:hover {
+    filter: brightness(125%);
+}
+.cartao.virado {
+    filter: grayscale(0) contrast(0) brightness(40%);
+    transform: rotate3d(1, -1, 0, 180deg);
+    margin-right: 6em;
+}
+.cartao.virado:hover {
+    filter: grayscale(0) contrast(0) brightness(60%);
+}
+/* ------------------------------------------------ */
+#newstop {
+    margin-top: 3em;
+    text-align: center;
+}
+#newstop p {
+    width: 80%;
+    margin-left: 2.5em;
+}
+#newstop button {
+    margin-bottom: 71em;
+}
+#newstop .marketing img {
+    cursor: pointer;
+}
+.titulo {
+    margin-top: 8em;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3em;
+}

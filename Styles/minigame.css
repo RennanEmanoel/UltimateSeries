@@ -1,0 +1,27 @@
+#cardimg{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-bottom: 7em;
+
+}
+.options {
+    width: 50%;
+    text-align: center;
+    margin-left: 21em;
+
+}
+h1 {
+    text-align: center;
+    margin-left: 4em;
+    margin-top: 6em;
+
+}
+#fundo img {
+    position: absolute;
+    z-index: -2;
+}
+#footteer {
+    margin-top: 24em;
+}
